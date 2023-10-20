@@ -6,3 +6,6 @@
 # Explicitly specify binary files to prevent line ending conversion
 build/box/* binary
 
+# Prevent line ending conversion for 'dist/box/box.spec'
+dist/box/box.spec -text eol=lf
+
