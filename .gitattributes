@@ -1,0 +1,8 @@
+# Set the line ending style for specific file types
+*.txt text
+*.html text
+*.toc text
+
+# Explicitly specify binary files to prevent line ending conversion
+build/box/* binary
+
